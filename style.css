@@ -33,7 +33,7 @@ body {
 }
 
 .logo img {
-    height: 150px;
+   width: 260px;
     animation: scaleIn 1s ease-in-out 3;
     transform: scale(1.3);
    
