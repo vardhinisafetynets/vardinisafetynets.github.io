@@ -138,13 +138,13 @@ backToTop.className = 'back-to-top';
 backToTop.href = '#';
 document.body.appendChild(backToTop);
 
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-        backToTop.style.opacity = '1';
-    } else {
-        backToTop.style.opacity = '0';
-    }
-});
+// window.addEventListener('scroll', () => {
+//     if (window.scrollY > 300) {
+//         backToTop.style.opacity = '1';
+//     } else {
+//         backToTop.style.opacity = '0';
+//     }
+// });
 
 // Location Box Hover Animation
 const locationBoxes = document.querySelectorAll('.location-box');
@@ -155,4 +155,5 @@ locationBoxes.forEach(box => {
     box.addEventListener('animationend', () => {
         box.style.animation = '';
     });
+
 });
