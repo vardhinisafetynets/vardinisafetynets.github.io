@@ -962,6 +962,8 @@ footer {
     }
 
     .logo img {
-        width: 200px; /* Maintain fixed width on smaller screens */
+        width: 250px;
+        margin: -22px;/* Maintain fixed width on smaller screens */
     }
 }
+
